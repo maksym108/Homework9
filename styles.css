@@ -1,0 +1,103 @@
+/* Загальні стилі */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Шапка */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav-item {
+    margin-right: 20px;
+  }
+  
+  .header-nav-item:last-child {
+    margin-right: 0;
+  }
+  
+  .header-nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Герой секція */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e9ecef;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text {
+    font-size: 1.25rem;
+  }
+  
+  /* Портфоліо */
+  .portfolio {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .portfolio-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .portfolio-item {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .portfolio-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .portfolio-description {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Підвал */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .footer-text {
+    font-size: 0.875rem;
+  }
